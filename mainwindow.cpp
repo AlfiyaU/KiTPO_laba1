@@ -13,8 +13,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     ui->status->setText("Добро пожаловать!");
     ui->lineEdit_2->setEnabled(false);
     ui->WriteFileButton->setEnabled(false);
-    rFile = "C:\\Users\\Alfiya\\Desktop\\KiTPO_laba1\\Data.txt";
-    wFile = "C:\\Users\\Alfiya\\Desktop\\KiTPO_laba1\\Result.txt";
+    rFile = "C:\\Users\\Alfiya\\Desktop\\QT\\KiTPO_laba1\\Data.txt";
+    wFile = "C:\\Users\\Alfiya\\Desktop\\QT\\KiTPO_laba1\\Result.txt";
 }
 
 MainWindow::~MainWindow()
@@ -180,4 +180,5 @@ void MainWindow::on_about_triggered()
 void MainWindow::on_clearButton_clicked()
 {
     ui->lineEdit->clear();
+    ui->lineEdit_2->clear();
 }
