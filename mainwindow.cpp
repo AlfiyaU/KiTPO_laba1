@@ -156,7 +156,6 @@ void MainWindow::on_ReadFileButton_clicked()
 {
     Read(rFile);
     ui->lineEdit_2->clear();
-
 }
 
 void MainWindow::on_MainButton_clicked()
@@ -181,4 +180,5 @@ void MainWindow::on_clearButton_clicked()
 {
     ui->lineEdit->clear();
     ui->lineEdit_2->clear();
+    ui->status->clear();
 }
